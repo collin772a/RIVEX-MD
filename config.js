@@ -14,7 +14,7 @@ global.location="Lahore,Pakistan."
 global.mongodb= process.env.MONGODB_URI || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
-global.DATABASE_URL = process.env.DATABASE_URL || ""
+global.DATABASE_URL = process.env.DATABASE_URL || "postgresql://smith1_user:NktpwkE2MTNUResDhnWRxed5wa2tFfs1@dpg-cqv5k1jtq21c73a2clsg-a.oregon-postgres.render.com/smith1"
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/smith-pixe/RIVEX-MD";
